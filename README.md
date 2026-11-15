@@ -1,3 +1,5 @@
+<a href="https://crawlcove.com/download?utm_source=github&utm_medium=readme&utm_campaign=schema-markup-validator"><img src="https://raw.githubusercontent.com/CrawlCove/.github/main/banners/schema-markup-validator.svg" width="1200" alt="schema-markup-validator: Check every schema.org node on a page against the required and recommended properties for rich results." /></a>
+
 # crawlcove-schema-validator
 
 A Schema.org / JSON-LD validator for the command line: extract every `<script type="application/ld+json">` block from a page (or a file, or stdin), parse it and say exactly why it doesn't parse when it doesn't, flatten `@graph`, and check each node against the properties Google's rich-result documentation **requires** and **recommends** for Article, Product, Offer, FAQPage, BreadcrumbList, Organization, LocalBusiness, Event, Recipe, HowTo, JobPosting, VideoObject, SoftwareApplication and more. Also catches the mistakes that are provably mistakes: wrong casing of a type, a missing `@context`, a relative URL, a date that isn't ISO 8601, a breadcrumb with gaps in its positions. Non-zero exit code for CI.
