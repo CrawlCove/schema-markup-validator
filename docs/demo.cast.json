@@ -1,0 +1,64 @@
+{
+ "recorded": "2026-11-20T00:05:08.148Z",
+ "steps": [
+  {
+   "show": "npx github:CrawlCove/schema-markup-validator https://crawlcove.github.io/seo-test-site/products/ember.html",
+   "exit": 1,
+   "ms": 221,
+   "lines": [
+    {
+     "t": 155,
+     "text": "https://crawlcove.github.io/seo-test-site/products/ember.html"
+    },
+    {
+     "t": 155,
+     "text": "  HTTP 200, 2 JSON-LD block(s)"
+    },
+    {
+     "t": 155,
+     "text": "  ✗ block 1: invalid JSON (Expected double-quoted property name in JSON at position 194 (line 6 column 1))"
+    },
+    {
+     "t": 155,
+     "text": "  ✓ block 2: 1 node(s) — Product"
+    },
+    {
+     "t": 155,
+     "text": ""
+    },
+    {
+     "t": 155,
+     "text": "  ✗ invalid-json (block 1): Block 1 is not valid JSON: Expected double-quoted property name in JSON at position 194 (line 6 column 1)."
+    },
+    {
+     "t": 155,
+     "text": "  ✗ missing-required (block 2): (top level): Product is missing \"name\", which Google requires before it shows a rich result."
+    },
+    {
+     "t": 155,
+     "text": "  ! missing-recommended (block 2): (top level): Product has no \"aggregateRating\" (recommended by Google; more properties, more rich-result features)."
+    },
+    {
+     "t": 155,
+     "text": "  ! missing-recommended (block 2): (top level): Product has no \"review\" (recommended by Google; more properties, more rich-result features)."
+    },
+    {
+     "t": 155,
+     "text": "  ! missing-recommended (block 2): (top level): Product has no \"brand\" (recommended by Google; more properties, more rich-result features)."
+    },
+    {
+     "t": 155,
+     "text": "  ! missing-recommended (block 2): (top level): Product has no \"sku\" (recommended by Google; more properties, more rich-result features)."
+    },
+    {
+     "t": 155,
+     "text": ""
+    },
+    {
+     "t": 155,
+     "text": "2 error(s), 4 warning(s)."
+    }
+   ]
+  }
+ ]
+}
