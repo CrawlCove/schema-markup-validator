@@ -8,7 +8,7 @@ Need to write the markup instead? [crawlcove.com/tools/schema-markup-generator](
 
 <img src="docs/demo.svg" width="980" alt="Terminal recording: validating a product page on the SEO test site finds invalid JSON in one block and a Product with no name in the other">
 
-*Recorded from a real run against [seo-test-site](https://github.com/CrawlCove/seo-test-site), a public site with 54 planted SEO problems that you can test against too.*
+*Recorded from a real run against [seo-test-site](https://github.com/CrawlCove/seo-test-site), a public site full of planted SEO problems that you can test against too.*
 
 ## Quick start
 
